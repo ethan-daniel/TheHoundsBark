@@ -1,0 +1,25 @@
+(dp0
+Vtitle
+p1
+Va
+p2
+sVimage_path
+p3
+V
+p4
+sVauthor
+p5
+Vfda
+p6
+sVbody
+p7
+g2
+sVtype
+p8
+VOpinion
+p9
+sVdate
+p10
+VFebruary 04
+p11
+s.

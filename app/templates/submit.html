@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block content %}
+<div align="center" class="container" id="submit-form">
+    <h1>Submit your article</h1>
+    <form action="" method="post" name="submit" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <input type="file" name="file" required="required">
+        <div class="row">
+            <div class="col-md-3 form-description">
+                {{ form.author.label }}
+            </div>
+            <div class="col-md-9 form-text-box">
+                {{ form.author(size=75) }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 form-description">
+                {{ form.type.label }}
+            </div>
+            <div class="col-md-9 form-text-box">
+                {{ form.type }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 form-description">
+                {{ form.title.label }}
+            </div>
+            <div class="col-md-9 form-text-box">
+                {{ form.title(size=75) }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 form-description">
+                {{ form.article.label }}
+            </div>
+            <div class="col-md-9 form-text-box">
+                {{ form.article(rows="15", cols="77") }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 form-description">
+                {{ form.password.label }}
+            </div>
+            <div class="col-md-9 form-text-box">
+                {{ form.password(size=75) }}
+            </div>
+        </div>
+        <div class="input text">
+            {{ form.submit(size=64) }}
+        </div>
+    </form>
+</div>
+{% endblock %}

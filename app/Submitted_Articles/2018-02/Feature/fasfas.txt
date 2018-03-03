@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vfasfas
+p2
+sVauthor
+p3
+Vfdsafs
+p4
+sVbody
+p5
+Vabhr
+p6
+sVtype
+p7
+VFeature
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

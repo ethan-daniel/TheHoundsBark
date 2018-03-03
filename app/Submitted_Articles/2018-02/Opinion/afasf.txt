@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vafasf
+p2
+sVauthor
+p3
+Vvsafsd
+p4
+sVbody
+p5
+Vasafasfs
+p6
+sVtype
+p7
+VOpinion
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

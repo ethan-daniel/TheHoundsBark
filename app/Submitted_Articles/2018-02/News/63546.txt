@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+V63546
+p2
+sVauthor
+p3
+V6346
+p4
+sVbody
+p5
+Vwtrwe
+p6
+sVtype
+p7
+VNews
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

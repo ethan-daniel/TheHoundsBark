@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<head>
+    {% block head %}
+    {{ super() }}
+    <meta name="google-signin-client_id"
+          content="936333754706-vp27j9oorq1taltpajb7btoh44jl60hq.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    {% endblock %}
+</head>
+{% block content %}
+<div class="g-signin2" data-onsuccess="authorized"></div>
+{% endblock %}

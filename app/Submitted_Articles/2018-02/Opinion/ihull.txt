@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vihull
+p2
+sVauthor
+p3
+Vp98ypy8
+p4
+sVbody
+p5
+Vhuil
+p6
+sVtype
+p7
+VOpinion
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

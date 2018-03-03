@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vfdsahrtd
+p2
+sVauthor
+p3
+Vfadf
+p4
+sVbody
+p5
+Vrtdjtfhyjft
+p6
+sVtype
+p7
+VNews
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

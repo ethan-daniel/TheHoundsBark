@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vfiodsajio
+p2
+sVauthor
+p3
+VEthan Daniel
+p4
+sVbody
+p5
+Vjfiodajifods
+p6
+sVtype
+p7
+VOpinion
+p8
+sVdate
+p9
+VFebruary 04
+p10
+s.

@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+{% block content %}
+<div data-spy="scroll" data-target="navigation" data-offset="0" class="container" id="body-container">
+    <a class="anchor" id="recent">Anchor</a>
+    <h5 class="mt-5 meme">Recent</h5>
+    <hr>
+    <div class="card-deck mt-4">
+        {% for i in recent_list %}
+        {% if loop.index == 4 %}
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body}}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <a class="anchor" id="feature">Anchor</a>
+    <h5 class="mt-5">Feature</h5>
+    <hr>
+    <div class="card-deck mt-4">
+        {% for i in feature_list %}
+        {% if loop.index == 4 %}
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body}}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <a class="anchor" id="opinion">Anchor</a>
+    <h5 class="mt-5">Opinion</h5>
+    <hr>
+    <div class="card-deck mt-4">
+        {% for i in opinion_list %}
+        {% if loop.index == 4 %}
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body}}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <a class="anchor" id="entertainment">Anchor</a>
+    <h5 class="mt-5">Entertainment</h5>
+    <hr>
+    <div class="card-deck mt-4">
+        {% for i in entertainment_list %}
+        {% if loop.index == 4 %}
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body}}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <a class="anchor" id="sports">Anchor</a>
+    <h5 class="mt-5">Sports</h5>
+    <hr>
+    <div class="card-deck mt-4">
+        {% for i in sports_list %}
+        {% if loop.index == 4 %}
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body}}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <a class="anchor" id="news">Anchor</a>
+    <h5 class="mt-5">News</h5>
+    <hr>
+    <div class="card-deck mt-4">
+        {% for i in news_list %}
+        {% if loop.index == 4 %}
+                    </div>
+                    <div class="card-deck mt-3">
+            {% endif %}
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/img/default-img.jpg"
+                         alt="Main article image">
+                    <div class="card-body">
+                        <h5 class="card-title">{{i.title}}</h5>
+                        <p class="card-subtitle text-muted">{{i.author}}</p>
+                        <p class="card-text mt-1">{{i.body}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">{{i.date}}</small>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <a class="anchor" id="flipside">Anchor</a>
+        <h5 class="mt-5">Flipside</h5>
+        <hr>
+        <div class="card-deck mt-4">
+        {% for i in flipside_list %}
+        {% if loop.index == 4 %}
+                    </div>
+                    <div class="card-deck mt-3">
+            {% endif %}
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/img/default-img.jpg"
+                         alt="Main article image">
+                    <div class="card-body">
+                        <h5 class="card-title">{{i.title}}</h5>
+                        <p class="card-subtitle text-muted">{{i.author}}</p>
+                        <p class="card-text mt-1">{{i.body}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">{{i.date}}</small>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% endblock %}

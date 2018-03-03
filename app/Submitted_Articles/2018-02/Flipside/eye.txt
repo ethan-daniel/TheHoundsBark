@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Veye
+p2
+sVauthor
+p3
+Vyer
+p4
+sVbody
+p5
+Veye
+p6
+sVtype
+p7
+VFlipside
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

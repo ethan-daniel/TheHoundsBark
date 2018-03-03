@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vhdhfg
+p2
+sVauthor
+p3
+Vdfhgd
+p4
+sVbody
+p5
+Vdfh
+p6
+sVtype
+p7
+VFlipside
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

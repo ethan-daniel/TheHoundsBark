@@ -1,0 +1,22 @@
+(dp0
+Vtitle
+p1
+Vhdgfh
+p2
+sVauthor
+p3
+Vhgfdh
+p4
+sVbody
+p5
+Vdhfhd
+p6
+sVtype
+p7
+VEntertainment
+p8
+sVdate
+p9
+VFebruary 03
+p10
+s.

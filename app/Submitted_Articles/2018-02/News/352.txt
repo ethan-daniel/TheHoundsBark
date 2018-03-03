@@ -1,0 +1,26 @@
+(dp0
+Vtitle
+p1
+V352
+p2
+sVimage_path
+p3
+V/Submitted_Articles/2018-02/News/352.jpg
+p4
+sVauthor
+p5
+V543
+p6
+sVbody
+p7
+V534
+p8
+sVtype
+p9
+VNews
+p10
+sVdate
+p11
+VFebruary 10
+p12
+s.
