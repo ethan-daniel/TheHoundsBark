@@ -1,0 +1,25 @@
+(dp0
+Vtitle
+p1
+V;
+p2
+sVimage_path
+p3
+V../static/img/Submitted_Images/2018-03/Feature/;.jpg
+p4
+sVauthor
+p5
+V;l
+p6
+sVbody
+p7
+g2
+sVtype
+p8
+VFeature
+p9
+sVdate
+p10
+VMarch 03
+p11
+s.

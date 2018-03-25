@@ -1,0 +1,26 @@
+(dp0
+Vtitle
+p1
+Vreqw
+p2
+sVimage_path
+p3
+V../static/img/Submitted_Images/2018-03/Opinion/reqw.jpg
+p4
+sVauthor
+p5
+Vjaofjaofj
+p6
+sVbody
+p7
+VLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget. Ornare arcu dui vivamus arcu felis bibendum ut. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Dictum non consectetur a erat nam at lectus. Ullamcorper malesuada proin libero nunc consequat interdum. Massa tincidunt nunc pulvinar sapien et ligula. Enim nec dui nunc mattis enim ut tellus elementum. Et odio pellentesque diam volutpat commodo sed. Mauris augue neque gravida in. Velit laoreet id donec ultrices tincirdunt. Pharetra sit amet aliquam id diam. Enim lobortis scelerisque fermentum dui faucibus. Odio facilisis mauris sit amet. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Sapien eget mi proin sed. Lorem sed risus ultricies tristique nulla aliquet.\u000a\u000aUt venenatis tellus in metus vulputate eu scelerisque. Faucibus vitae aliquet nec ullamcorper sit amet. In eu mi bibendum neque egestas congue. Porta nibh venenatis cras sed. Ultricies integer quis auctor elit sed. Rutrum tellus pellentesque eu tincidunt. Congue quisque egestas diam in arcu cursus euismod. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Nec ultrices dui sapien eget mi proin sed libero enim. Leo a diam sollicitudin tempor. Sed vulputate mi sit amet. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti.
+p8
+sVtype
+p9
+VOpinion
+p10
+sVdate
+p11
+VMarch 03
+p12
+s.

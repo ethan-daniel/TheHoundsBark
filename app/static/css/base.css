@@ -13,15 +13,27 @@ select {
     visibility: hidden;
 }
 
+.article-full-image {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .form-description {
 }
+
 .form-text-box {
 }
+
 .navbar, .navbar-default{
     display: inline-block;
     vertical-align: top;
     position: fixed;
     text-align: center;
+}
+
+.page-content {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #body-container {

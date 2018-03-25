@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>{{title}}</h1>
+    <h6>{{author}}</h6>
+    <h6>{{date}}</h6>
+    <img src="{{image_path}}" alt="Main article image" class="article-full-image">
+<p style="display: block">{{body|safe}}</p>
+{% endblock %}

@@ -1,0 +1,26 @@
+(dp0
+Vtitle
+p1
+Vafdsaf
+p2
+sVimage_path
+p3
+V../static/img/Submitted_Images/2018-03/Opinion/afdsaf.jpg
+p4
+sVauthor
+p5
+Vfda
+p6
+sVbody
+p7
+VLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Sit amet dictum sit amet justo donec enim. Purus sit amet volutpat consequat mauris nunc congue. Leo in vitae turpis massa sed elementum. Donec massa sapien faucibus et molestie ac feugiat sed. Ultricies leo integer malesuada nunc vel. Magna fermentum iaculis eu non. Odio ut sem nulla pharetra diam sit amet. Felis bibendum ut tristique et. At auctor urna nunc id. Luctus accumsan tortor posuere ac. Risus sed vulputate odio ut enim blandit. Purus gravida quis blandit turpis cursus in hac.\u000a\u000aDictum non consectetur a erat nam at lectus urna duis. Fermentum leo vel orci porta non. Amet volutpat consequat mauris nunc congue nisi vitae. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Rutrum quisque non tellus orci ac auctor augue mauris augue. Consequat id porta nibh venenatis. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Urna nunc id cursus metus aliquam eleifend mi. Purus non enim praesent elementum facilisis.
+p8
+sVtype
+p9
+VOpinion
+p10
+sVdate
+p11
+VMarch 03
+p12
+s.

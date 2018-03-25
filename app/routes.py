@@ -37,45 +37,11 @@ def get_latest_articles(pathname):
     return unpickled_list
 
 
-@app.route('/feature')
-def feature():
-    return render_template('feature.html', title='Feature')
-
-
-@app.route('/opinion')
-def opinion():
-    return render_template('opinion.html', title='Opinion')
-
-
-@app.route('/entertainment')
-def entertainment():
-    return render_template('entertainment.html', title='Entertainment')
-
-
-@app.route('/sports')
-def sports():
-    return render_template('sports.html', title='Sports')
-
-
-@app.route('/news')
-def news():
-    return render_template('news.html', title='News')
-
-
-@app.route('/flipside')
-def flipside():
-    return render_template('flipside.html', title='Flipside')
-
-
-@app.route('/staff')
-def staff():
-    return render_template('staff.html', title='Staff')
-
-
-@app.route('/contact')
-def contact():
-    return render_template('contact.html', title='Contact')
-
+@app.route('/article/<date>/<category>/<title>')
+def show_article(date, category, title):
+    target_article = pickle.load(open('app/Submitted_Articles/' + date + '/' + category + '/' + title + '.txt', "rb"))
+    targetArticleBody = target_article["body"].replace(os.linesep, "</p><p>")
+    return render_template('article.html', date=target_article["date"], category=category, title=title, author=target_article["author"], body=targetArticleBody, image_path="../../" + target_article["image_path"])
 
 @app.route('/submit', methods=['GET', 'POST'])
 def submit():
@@ -104,7 +70,7 @@ def submit():
             os.mkdir(os.path.join(image_date_path_local, form.type.data))
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
-            file.save(os.path.join(image_date_path_local, form.type.data))
+            file.save(os.path.join(image_date_path_local, form.type.data, form.title.data + filename[-4:]))
             image_path_online = "../" + os.path.join(image_date_path, form.type.data, form.title.data + filename[-4:]).replace("\\", "/")
         article_data = {"title": form.title.data, "image_path": image_path_online,"author": form.author.data, "body": form.article.data,
                         "type": form.type.data, "date": datetime.today().strftime('%B %d')}
@@ -115,6 +81,15 @@ def submit():
                            title='Submit Article',
                            form=form)
 
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html', title='Contact')
+
+
+@app.route('/staff')
+def staff():
+    return render_template('staff.html', title='Staff')
 
 def allowed_file(filename):
     return '.' in filename and \

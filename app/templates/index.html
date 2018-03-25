@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <div data-spy="scroll" data-target="navigation" data-offset="0" class="container" id="body-container">
-    <a class="anchor" id="recent">Anchor</a>
-    <h5 class="mt-5 meme">Recent</h5>
+    <h5 class="mt-5">Recent</h5>
     <hr>
     <div class="card-deck mt-4">
         {% for i in recent_list %}
@@ -16,7 +15,10 @@
                 <div class="card-body">
                     <h5 class="card-title">{{i.title}}</h5>
                     <p class="card-subtitle text-muted">{{i.author}}</p>
-                    <p class="card-text mt-1">{{i.body}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">{{i.date}}</small>
@@ -36,11 +38,14 @@
         {% endif %}
         <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
                 <div class="card-body">
                     <h5 class="card-title">{{i.title}}</h5>
                     <p class="card-subtitle text-muted">{{i.author}}</p>
-                    <p class="card-text mt-1">{{i.body}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">{{i.date}}</small>
@@ -60,11 +65,14 @@
         {% endif %}
         <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
                 <div class="card-body">
                     <h5 class="card-title">{{i.title}}</h5>
                     <p class="card-subtitle text-muted">{{i.author}}</p>
-                    <p class="card-text mt-1">{{i.body}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">{{i.date}}</small>
@@ -84,11 +92,14 @@
         {% endif %}
         <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
                 <div class="card-body">
                     <h5 class="card-title">{{i.title}}</h5>
                     <p class="card-subtitle text-muted">{{i.author}}</p>
-                    <p class="card-text mt-1">{{i.body}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">{{i.date}}</small>
@@ -108,11 +119,14 @@
         {% endif %}
         <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="../static/img/default-img.jpg" alt="Main article image">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
                 <div class="card-body">
                     <h5 class="card-title">{{i.title}}</h5>
                     <p class="card-subtitle text-muted">{{i.author}}</p>
-                    <p class="card-text mt-1">{{i.body}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">{{i.date}}</small>
@@ -127,50 +141,53 @@
     <div class="card-deck mt-4">
         {% for i in news_list %}
         {% if loop.index == 4 %}
-                    </div>
-                    <div class="card-deck mt-3">
-            {% endif %}
-            <div class="col-sm-4">
-                <div class="card">
-                    <img class="card-img-top" src="../static/img/default-img.jpg"
-                         alt="Main article image">
-                    <div class="card-body">
-                        <h5 class="card-title">{{i.title}}</h5>
-                        <p class="card-subtitle text-muted">{{i.author}}</p>
-                        <p class="card-text mt-1">{{i.body}}</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">{{i.date}}</small>
-                    </div>
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
                 </div>
             </div>
-            {% endfor %}
         </div>
-        <a class="anchor" id="flipside">Anchor</a>
-        <h5 class="mt-5">Flipside</h5>
-        <hr>
-        <div class="card-deck mt-4">
+        {% endfor %}
+    </div>
+    <a class="anchor" id="flipside">Anchor</a>
+    <h5 class="mt-5">Flipside</h5>
+    <hr>
+    <div class="card-deck mt-4">
         {% for i in flipside_list %}
         {% if loop.index == 4 %}
-                    </div>
-                    <div class="card-deck mt-3">
-            {% endif %}
-            <div class="col-sm-4">
-                <div class="card">
-                    <img class="card-img-top" src="../static/img/default-img.jpg"
-                         alt="Main article image">
-                    <div class="card-body">
-                        <h5 class="card-title">{{i.title}}</h5>
-                        <p class="card-subtitle text-muted">{{i.author}}</p>
-                        <p class="card-text mt-1">{{i.body}}</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">{{i.date}}</small>
-                    </div>
+    </div>
+    <div class="card-deck mt-3">
+        {% endif %}
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="{{i.image_path}}" alt="Main article image">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <p class="card-subtitle text-muted">{{i.author}}</p>
+                    <p class="card-text mt-1">{{i.body|truncate(config.NUM_PREVIEW_CHARS, False, '...')}}</p>
+                    <a href="/article/{{i.image_path[31:38]}}/{{i.type}}/{{i.title}}" class="btn btn-primary"
+                       role="button">Read More</a>
+
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{i.date}}</small>
                 </div>
             </div>
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
-
-    {% endblock %}
+</div>
+{% endblock %}
