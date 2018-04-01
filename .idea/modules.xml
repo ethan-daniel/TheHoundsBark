@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HHS Journalism Website.iml" filepath="$PROJECT_DIR$/.idea/HHS Journalism Website.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../microblog/.idea/microblog.iml" filepath="$PROJECT_DIR$/../microblog/.idea/microblog.iml" />
     </modules>
   </component>
 </project>
