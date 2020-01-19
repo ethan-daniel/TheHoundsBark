@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fe103c-469c-4157-af3f-d02c920730e5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +317,7 @@
       <option name="presentableId" value="Default" />
       <updated>1513387745677</updated>
       <workItem from="1579414454200" duration="662000" />
-      <workItem from="1579416795976" duration="365000" />
+      <workItem from="1579416795976" duration="862000" />
     </task>
     <servers />
   </component>
@@ -322,26 +325,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="267" key="GridCell.Tab.0.bottom" timestamp="1579416628118">
+    <state width="1668" height="267" key="GridCell.Tab.0.bottom" timestamp="1579417809368">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1579416628118" />
-    <state width="1358" height="267" key="GridCell.Tab.0.center" timestamp="1579416628117">
+    <state width="1668" height="267" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1579417809368" />
+    <state width="1668" height="267" key="GridCell.Tab.0.center" timestamp="1579417809368">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1579416628117" />
-    <state width="1358" height="267" key="GridCell.Tab.0.left" timestamp="1579416628117">
+    <state width="1668" height="267" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1579417809368" />
+    <state width="1668" height="267" key="GridCell.Tab.0.left" timestamp="1579417809368">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1579416628117" />
-    <state width="1358" height="267" key="GridCell.Tab.0.right" timestamp="1579416628118">
+    <state width="1668" height="267" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1579417809368" />
+    <state width="1668" height="267" key="GridCell.Tab.0.right" timestamp="1579417809368">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1579416628118" />
-    <state x="789" y="332" key="SettingsEditor" timestamp="1579417260907">
+    <state width="1668" height="267" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1579417809368" />
+    <state x="789" y="332" key="SettingsEditor" timestamp="1579417746007">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state x="789" y="332" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1579417260907" />
+    <state x="789" y="332" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1579417746007" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,6 +358,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TheHoundsBark$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1579414776469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TheHoundsBark$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1579417572761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

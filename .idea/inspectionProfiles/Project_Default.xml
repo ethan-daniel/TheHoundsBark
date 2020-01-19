@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="47">
+          <list size="58">
             <item index="0" class="java.lang.String" itemvalue="pyobjc-framework-Message" />
             <item index="1" class="java.lang.String" itemvalue="pyobjc-framework-WebKit" />
             <item index="2" class="java.lang.String" itemvalue="pyobjc-framework-CFNetwork" />
@@ -52,6 +52,17 @@
             <item index="44" class="java.lang.String" itemvalue="pytz" />
             <item index="45" class="java.lang.String" itemvalue="pyobjc-framework-ScreenSaver" />
             <item index="46" class="java.lang.String" itemvalue="pyobjc-framework-SystemConfiguration" />
+            <item index="47" class="java.lang.String" itemvalue="altgraph" />
+            <item index="48" class="java.lang.String" itemvalue="ipaddress" />
+            <item index="49" class="java.lang.String" itemvalue="bdist-mpkg" />
+            <item index="50" class="java.lang.String" itemvalue="asn1crypto" />
+            <item index="51" class="java.lang.String" itemvalue="future" />
+            <item index="52" class="java.lang.String" itemvalue="macholib" />
+            <item index="53" class="java.lang.String" itemvalue="cffi" />
+            <item index="54" class="java.lang.String" itemvalue="cryptography" />
+            <item index="55" class="java.lang.String" itemvalue="pycparser" />
+            <item index="56" class="java.lang.String" itemvalue="enum34" />
+            <item index="57" class="java.lang.String" itemvalue="gunicorn" />
           </list>
         </value>
       </option>
