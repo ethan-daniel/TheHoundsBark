@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fe103c-469c-4157-af3f-d02c920730e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HHS Journalism Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HHS Journalism Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,7 +314,7 @@
       <option name="presentableId" value="Default" />
       <updated>1513387745677</updated>
       <workItem from="1579414454200" duration="662000" />
-      <workItem from="1579416795976" duration="25000" />
+      <workItem from="1579416795976" duration="365000" />
     </task>
     <servers />
   </component>
@@ -340,10 +338,10 @@
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1579416628118" />
-    <state x="789" y="332" key="SettingsEditor" timestamp="1579416820128">
+    <state x="789" y="332" key="SettingsEditor" timestamp="1579417260907">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state x="789" y="332" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1579416820128" />
+    <state x="789" y="332" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1579417260907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
