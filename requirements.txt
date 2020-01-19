@@ -3,7 +3,7 @@ flask==1.1.1
 flask-sql-alchemy==2.4.1
 flask-wtf==0.14.2
 jinja2==2.10.3
-markupsafe=1.1.1
+markupsafe==1.1.1
 wtforms==2.2.1
 werkzeug==0.16.0
 gunicorn==20.0.4
